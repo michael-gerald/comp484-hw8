@@ -1,0 +1,129 @@
+/* Color Palette
+# - color 1 -- #0F2854
+# - color 2 -- #1C4D8D
+# - color 3 -- #4988C4
+# - color 4 -- #BDE8F5
+*/
+
+/* Global styles 
+------------------------------------*/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background: #0F2854;
+    font-family: "Merriweather" , sans-serif;
+    margin: 0;
+}
+h1{ 
+    font-size: 50px;
+    font-family: "Open Sans", sans-serif;
+}
+h2{
+    font-size: 40px;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 0;
+}
+h1, h2{
+    margin: 0;
+}
+h3{
+    font-size: 25px;
+    font-family: "Open Sans", sans-serif;  
+}
+p {
+    font-size: 20px;
+}
+img {
+    height: 300px;
+    width: 300px;
+}
+
+.content-wrap{
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+}
+
+.column-narrow{
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height:175px;
+}
+
+.column-wide{
+    width: 70%;
+    float: left;
+    min-height: 225px;
+}
+
+/* Navigation Menu 
+------------------------------------*/
+nav {
+    background: purple;
+    margin-bottom: 5px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.nav_menu {
+    text-align: center;
+}
+.nav_menu a {
+    padding: 10px;
+    display: inline-block;
+    background: lightblue;
+}
+/* Header & Footer 
+------------------------------------*/
+header, footer{
+    background: #1C4D8D;
+    color: white;
+}
+
+footer{
+    text-align: center;
+}
+
+.profile-img {
+    /*
+    width: 300px;
+    float: left;
+    margin-right: 30px;
+    */
+    border-radius: 50%;
+}
+.contact-info a{
+    padding: 10px;
+    display: inline-block;
+}
+
+/* Work Experience
+------------------------------------*/
+.work{
+    background: #4988C4;
+    color: white;
+}
+
+
+/* Education
+------------------------------------*/
+.education{
+    background: #BDE8F5;
+    color: white;
+}
+
+.image-bg{
+    background: url(../images/csunpic.jpg);
+    background-attachment: fixed;
+}
+
+.alpha-bg{
+    background: linear-gradient(rgba(#4988C4), rgba(#1C4D8D));
+}
